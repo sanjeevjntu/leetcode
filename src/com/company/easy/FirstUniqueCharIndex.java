@@ -7,7 +7,7 @@ public class FirstUniqueCharIndex {
 
     public static void main(String[] args) {
 
-        System.out.println(firstUniqChar("sanjeev"));
+        System.out.println(firstUniqChar("hhhlllot"));
 
     }
 
