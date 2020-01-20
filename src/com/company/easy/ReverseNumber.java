@@ -9,11 +9,14 @@ public class ReverseNumber {
     }
 
     public static int reverse(int num) {
-        int rev =0;
+        long rev =0;
          while(num !=0) {
              rev= rev*10 + num%10;
              num /=10;
          }
-         return rev;
+         if(rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+             return 0;
+         }
+         return (int) rev;
     }
 }
