@@ -22,11 +22,6 @@ public class Anagram {
                 map.put(ch, map.get(ch) - 1);
             }
         }
-
-//         if(map.values().stream().reduce(Integer::sum).get() == 0){
-//             return true;
-//         }
-//         return false;
         return map.values().stream().allMatch(integer -> integer == 0);
     }
 }
