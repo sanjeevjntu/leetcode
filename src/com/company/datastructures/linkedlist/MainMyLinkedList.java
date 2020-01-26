@@ -3,7 +3,7 @@ package com.company.datastructures.linkedlist;
 public class MainMyLinkedList {
 
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
+        MyLinkedList linkedList = new MyLinkedList();
         linkedList.addLast(10);
         linkedList.addLast(20);
         linkedList.addLast(30);
