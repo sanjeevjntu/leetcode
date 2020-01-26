@@ -1,7 +1,5 @@
 package com.company.datastructures.array;
 
-import com.company.datastructures.MyLinkedList;
-
 public class Main {
 
     public static void main(String[] args) {
