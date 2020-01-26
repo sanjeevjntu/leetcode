@@ -10,6 +10,7 @@ public class MainMyLinkedList {
         linkedList.addFirst(5);
 
         int index = linkedList.indexOf(10);
+
         System.out.println(index);
 
         boolean contains = linkedList.contains(30);
