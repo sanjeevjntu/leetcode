@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 
 public class MyLinkedList {
 
-    private class Node {
+    private static class Node {
         private int value;
         private Node next;
 

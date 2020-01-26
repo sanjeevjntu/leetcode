@@ -1,8 +1,9 @@
 package com.company.datastructures.arraylist;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class Main {
+public class MainList {
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -20,5 +21,13 @@ public class Main {
         for(Object num: numbers){
             System.out.println(num);
         }
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.add(100);
+        linkedList.add(200);
+        linkedList.add(300);
+        linkedList.add(400);
+
+        System.out.println(linkedList);
     }
 }

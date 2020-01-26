@@ -1,6 +1,6 @@
 package com.company.datastructures.array;
 
-public class Main {
+public class MainArray {
 
     public static void main(String[] args) {
 
